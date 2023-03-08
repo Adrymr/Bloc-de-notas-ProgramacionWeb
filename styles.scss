@@ -1,0 +1,92 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+:root{
+    --primary: #8e74a1;
+    --light: #FFFFFF;
+    --grey: #a6a6a6;
+    --black: #000000;
+    --darkGrey: #4e475e;
+}
+
+body{
+    overflow: hidden;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.me-5{
+    margin-right: 32vh !important;
+}
+
+.subtitle{
+    margin-left: 20px;
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+#sidebar-container{
+    min-height: 100vh;
+    color:var(--light);
+}
+
+#sidebar-container .logo{
+    padding: .875rem 1.25rem;
+}
+
+#sidebar-container .menu{
+    width: 18rem;
+}
+
+#sidebar-container .menu a{
+    color: var(--light);
+    text-decoration: none;
+}
+
+#sidebar-container .menu a:hover{
+    text-decoration: none;
+    color: var(--grey);
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 86vh;
+    min-width: 50vh;
+}
+
+.bbs-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    min-width: 50vh;
+}
+
+.cbs-center{
+    text-align: center ;
+}
+
+.form {
+    width: 450px;
+}
+
+.label{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--darkGrey) !important;
+}
+
+.inputS{
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 2px solid --darkGrey;
+    
+}
+
+
+
+
